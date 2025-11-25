@@ -1,3 +1,64 @@
+:root {
+    --sage-light: #DAD7CD;
+    --sage: #A3B18A;
+    --sage-dark: #588157;
+    --sage-deep: #3A5A40;
+    --text-dark: #2F3E46;
+    --text-light: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: Arial, sans-serif;
+    background-color: var(--sage-light);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
 .navbar {
-    background-color: #111;
+    background-color: var(--sage-dark);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover {
+    color: var(--sage-light);
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: 60px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.07);
+}
+
+h1, h2 {
+    color: var(--sage-deep);
+}
+
+.project {
+    background: var(--sage)
 }

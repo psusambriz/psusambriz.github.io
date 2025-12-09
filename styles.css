@@ -104,3 +104,71 @@ h1, h2 {
     font-size: 1.1rem;
     line-height: 1.7;
 }
+
+#projects .container {
+    padding: 0;
+}
+
+#projects .section-intro {
+    margin-bottom: 20px;
+}
+
+#carouselExampleIndicators {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+#projects .carousel-inner img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#projects .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--sage);
+}
+
+#projects .carousel-indicators .active {
+    background-color: var(--sage-deep);
+}
+
+#projects .carousel-control-prev-icon,
+#projects .carousel-control-next-icon {
+    filter: drop-shadow(0 0 4px rgba(0,0,0,0.6));
+}
+
+#projects .carousel-caption {
+    background: linear-gradient(
+        to top,
+        rgba(47,62,70, 0.85),
+        rgba(47,62,70,0.35)
+    );
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#projects .carousel-caption h3 {
+    margin-bottom: 6px;
+    font-size: 1.25rem;
+}
+
+#projects .carousel-caption p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    #projects .carousel-inner img {
+        max-height: 260px;
+    }
+
+    #projects .carousel-caption {
+        font-size: 0.9rem;
+        padding: 10px 12px;
+    }
+}

@@ -172,3 +172,24 @@ h1, h2 {
         padding: 10px 12px;
     }
 }
+
+#work h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: var(--sage-deep);
+    font-size: 1.1rem;
+}
+
+#work p {
+    margin-bottom: 12px;
+}
+
+#work ul {
+    padding-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+#work li {
+    margin-bottom: 4px;
+}
